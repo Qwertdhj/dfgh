@@ -1062,7 +1062,7 @@ button {
     .-slide-two-text-:nth-child(3n) {
         position: absolute;
         top: 29.4vh;
-        left: 40.3%;
+        left: 25vh;
         border-bottom: 1px solid #3D3D3D;
         padding-bottom: 1.2vh;
         cursor: context-menu;
@@ -1074,7 +1074,7 @@ button {
 .-slide-two-text- {
     position: absolute;
     top: 40.4vh;
-    left: 20.5%;
+    left: 16vh;
 }
 .prevTwo {
     position: absolute;
@@ -1142,5 +1142,28 @@ button {
     100% {
         transform: translateX(0%);
     }
+}
+.-slide-two-text- span::after {
+    content: '';
+    position: relative;
+    width: 40%;
+    height: 1px;
+    background: #fff;
+    display: block;
+    float: right;
+    top: 1.3vh;
+    border-radius: 2px;
+    transition: .3s;
+}
+.-slider-prise-prime- span::after {
+    width: 40%;
+    height: 1px;
+    content: '';
+    background: #fff;
+    float: right;
+    top: 1.2vh;
+    position: relative;
+    transition: .3s;
+    border-radius: 2px;
 }
 }
